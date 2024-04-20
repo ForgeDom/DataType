@@ -4,8 +4,9 @@
 using namespace std;
 
 int main() {
-	for (size_t i = 0; i <= 255; i++) {
-		cout << i << " - " << char(i) << endl;
-	}
+	double S, v, t, a;
+	cin >> v >> t >> a;
+	S = v * t + (a * pow(t, 2) / 2);
+	cout << S;
 	return 0;
 }
