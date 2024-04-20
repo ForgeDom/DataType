@@ -23,4 +23,6 @@ int main() {
 	cout << x << endl;
 	SetConsoleTextAttribute(hConsole, 0x0F);
 	return 0;
+
+
 }
